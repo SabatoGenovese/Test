@@ -1,7 +1,15 @@
+import java.util.*;
+
 public class test
 {
     public static void main(String[] args) 
     {
-        System.out.println("Ciao Foca Come Va");    
+        System.out.print("\nScrivi qualcosa: ");
+        
+        Scanner scan = new Scanner(System.in); 
+        
+        System.out.println(scan.nextLine());
+        
+        scan.close();
     }
 }
